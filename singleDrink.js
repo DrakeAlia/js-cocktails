@@ -1,7 +1,7 @@
 import fetchDrinks from "./src/fetchDrinks"
 import displayDrink from "./src/displaySingleDrink"
 
-const presentDrinks = async () => {
+const presentDrink = async () => {
     const id = localStorage.getItem("drink")
     if (!id) {
         window.location.replace("index.html")
