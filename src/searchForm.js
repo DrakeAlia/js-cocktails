@@ -1,4 +1,5 @@
 import get from "./getElement"
+import presentDrinks from "./presentDrinks"
 
 const baseURL = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=";
 
