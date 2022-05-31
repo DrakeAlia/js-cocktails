@@ -1,4 +1,5 @@
-
+import get from "./getElement"
+import { hideLoading } from "./toggleLoading"
 
 const displayDrinks = ({ drinks }) => {
     const section = get(".section-center")
